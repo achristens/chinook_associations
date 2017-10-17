@@ -15,5 +15,6 @@
 
 6. Use an association-provided method to find the media type of that same track.
     Track.find_by(name: "My Time After Awhile").media_type
-    
+
 7. Use an association-provided method to find the album that track appears on.
+    Track.find_by(name: "My Time After Awhile").album
